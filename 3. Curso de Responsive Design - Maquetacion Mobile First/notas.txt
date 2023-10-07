@@ -1,0 +1,17 @@
+Dudas CSS
+ANIMACIONES ------------------------------ IMPORTANT
+
+Metodologia de BEM
+Como usar el braground
+
+    line-height: 2.6rem; /* Separacion de textos */
+
+
+Uso de linear-gradient
+    background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+
+
+Como funciona la sombra
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+
+
