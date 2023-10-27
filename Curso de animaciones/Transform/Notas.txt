@@ -1,0 +1,94 @@
+Transform
+Transition
+Animation
+
+Transform - Scale
+Te permite acerco mas grande 
+
+.circle:hover {
+    transform: scale(4);
+    /* transform: scaleX(4); */
+    /* transform: scaleY(4); */
+}
+
+Transform - skew
+Te permite ponerlo a cierto angulo
+
+div:hover {
+    transform: skew(20deg);
+    transform: skewX(20deg);
+    transform: skewY(20deg);
+}
+
+Transform - rotate
+Te permite rotar a ciertos angulos
+
+div:hover {
+    transform: rotate(20deg);
+    /* transform: rotateX(20deg);
+    transform: rotateY(20deg); */
+}
+
+
+***************************** Transform origin
+Básicamente transform origin es el punto base desde el cual se aplica una transformación.
+
+div {
+    border-radius: 20%;
+    width: 150px;
+    height: 100px;
+    background-color: tomato;
+    transform-origin: right bottom; -------- Aqui es donde se aplica
+}
+div:hover {
+    transform: rotate(-20deg);
+}
+
+
+*********************************** Transform style perspective
+Basicamente es la forma en la que estamos viendo algo en este ejemplo nos muestran algo en 3D
+
+html
+<div class="container">
+    <div class="item"></div>
+</div>
+
+CSS
+.container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 5px solid seagreen;
+    perspective: 100px;
+}
+.item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid royalblue;
+    background-color: papayawhip;
+    opacity: 0.5;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg);
+}
+
+******************************* Parallax
+Basicamente es tener una imagen encima de otra como un fondo el ejemplo que la clase proporciona es a alicia callendo en un ahujero el efecto Parallax te permite ver a alicia callendo mientras el fondo se queda inmovil 
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Transition
+Transition-property
+
+
+
+
+
+
+
+
+Transition-duration

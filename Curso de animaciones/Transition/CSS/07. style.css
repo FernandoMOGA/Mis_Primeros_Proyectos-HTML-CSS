@@ -1,0 +1,19 @@
+button {
+    background-color: palegoldenrod;
+    width: 100px;
+    height: 30px;
+}
+
+.better {
+    transition-duration: 500ms;
+}
+.better:hover {
+    transform: translateY(5px);
+}
+
+.worst {
+    transition: margin-top 500ms;
+}
+.worst:hover{
+    margin-top: 5px;
+}

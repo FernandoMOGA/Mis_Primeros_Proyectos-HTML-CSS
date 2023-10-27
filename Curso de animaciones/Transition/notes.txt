@@ -1,0 +1,17 @@
+*****************Duration
+Basicamente habla de cuanto tiempo queremos que nuestra animacion dure
+
+transition-duration: 1.5s;
+
+***************************
+Transition timing - Function y delay
+
+Transition timing
+Diferentes tiempos o que se muevan diferente dependiendo la propieda que le incluyamos
+
+Function delay
+Tiempo de espera antes de que suceda nuestra animacion
+
+
++++++++++++++++++++++++++++++++++++++++++++++++
+El el 3. index lo podrias para crear cartas que muestren notas en tu block seria muy interesante

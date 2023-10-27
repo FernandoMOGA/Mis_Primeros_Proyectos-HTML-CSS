@@ -1,0 +1,11 @@
+.circle {
+    background-color: seagreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle:hover {
+    transform: scaleX(4);
+    /* transform: scaleX(4); */
+    /* transform: scaleY(4); */
+}

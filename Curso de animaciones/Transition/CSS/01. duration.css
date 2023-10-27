@@ -1,0 +1,27 @@
+.container {
+    width: 400px;
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.container:hover .box{
+    transform: scale(1.2);
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+.box1 {
+    background-color: chartreuse;
+    transition-duration: 500ms;
+}
+.box2 {
+    background-color: yellow;
+    transition-duration: 1s;
+}
+.box3 {
+    background-color: thistle;
+    transition-duration: 1.5s;
+}
